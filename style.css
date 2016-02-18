@@ -1,0 +1,7 @@
+body section {
+  display: inline-block;
+  border: 10px solid;
+  padding: 15px;
+  background-image: url("http://cdni.wired.co.uk/1240x826/s_v/Storm-2--Wired-19sep13_REX_Marko-Korosec_b_1240x826.jpg");
+  background-color: #cccccc;
+}

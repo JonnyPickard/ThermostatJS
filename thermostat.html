@@ -2,38 +2,36 @@
 <html>
 <head>
   <title>Thermostat</title>
-  <link rel="stylesheet" type="text/css" href="home.css" media= "screen" />
+  <link rel="stylesheet" type="text/css" href="style.css" media= "screen" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="src/thermostat.js"></script>
   <script src="src/interface.js"></script>
 </head>
 <body>
-
   <section>
-    <h1>Temperature where you are: <span id="current-temperature"></span></h1>
+    <h1>Temperature where you are: <span id="current-temperature"></span>&deg;C</h1>
     <form id="select-city">
       Enter a city:
       <input id="current-city" type="text" placeholder="Enter a city"></input>
       <input type="submit"></input>
     </form>
+    <h2 id="degrees"></h2>
+    <div>
+      <p>
+        <button id="increaseTemp">+</button>
+        <button id="decreaseTemp">-</button>
+      </p>
+    </div>
+    <div>
+      <h2>Power saving status: <span id="powerSavingModeStatus">On</span></h2>
+      <button id="switchPowerSavingOn">On</button>
+      <button id="switchPowerSavingOff">Off</button>
+    </div>
+    <div>
+      <p>
+        <button id="resetTemp">Rest Temperature</button>
+      </p>
+    </div>
   </section>
-
-  <h2 id="degrees"></h2>
-  <div>
-    <p>
-      <button id="increaseTemp">+</button>
-      <button id="decreaseTemp">-</button>
-    </p>
-  </div>
-  <div>
-    <h2>Power saving status: <span id="powerSavingModeStatus">On</span></h2>
-    <button id="switchPowerSavingOn">On</button>
-    <button id="switchPowerSavingOff">Off</button>
-  </div>
-  <div>
-    <p>
-      <button id="resetTemp">Rest Temperature</button>
-    </p>
-  </div>
 </body>
 </html>
