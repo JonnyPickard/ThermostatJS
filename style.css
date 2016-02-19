@@ -1,7 +1,110 @@
-body section {
-  display: inline-block;
-  border: 10px solid;
-  padding: 15px;
-  background-image: url("http://cdni.wired.co.uk/1240x826/s_v/Storm-2--Wired-19sep13_REX_Marko-Korosec_b_1240x826.jpg");
-  background-color: #cccccc;
+body {
+  margin: 0;
+  width: 100%;
+}
+
+#heading {
+  border-bottom: ridge;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 500%;
+  font-family: "courier";
+  text-shadow: 1px 1px #999999;
+}
+
+#locationcheck {
+  border-top: ridge;
+  border-color: white;
+  font-family: "courier";
+  text-align: center;
+  margin-top: 5.2cm;
+  margin-bottom: .2;
+  position: fixed;
+  padding: 1;
+  background-image: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);
+  background-color: #999999;
+  width: 100%;
+  color: white;
+  float: left;
+}
+
+#thermostat {
+  position: fixed;
+  margin-top: 8cm;
+  font-family: "courier";
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-top: ridge;
+  /*background-image: url(http://www.thealarmco.co.uk/wp-content/uploads/2014/10/FIRE-2-GENERIC.jpg);*/
+  background-image: url(http://www.unoosa.org/res/timeline/index_html/space-2.jpg);
+  background-size: cover;
+}
+
+#powerSavingMode {
+  padding: 1;
+  margin-left: 42%;
+  margin-right: 42%;
+  align-self: center;
+  color: white;
+  border-style: solid;
+  border-radius: 100px;
+  border-width: 10px;
+  border-color: #290066;
+  /*border-image: url(http://www.unoosa.org/res/timeline/index_html/space-2.jpg);*/
+  padding: 10px;
+  text-shadow: 2px 2px black;
+  background-image: url(http://www.unoosa.org/res/timeline/index_html/space-2.jpg);
+  /*background-color: #ff9900;*/
+}
+
+.button {
+  color: white;
+  border-style: double;
+  border-color: #290066;
+  border-radius: 10px;
+  font-family: "courier";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+}
+
+#pss {
+  border-style: solid;
+  border-color: #290066;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#divider {
+  border-style:
+  border-color: #black;
+  background-color: black;
+}
+
+#submitbutton {
+	border : solid 2px #c7c7c7;
+	border-radius : 5px 5px 20px 20px ;
+	moz-border-radius : 5px 5px 20px 20px ;
+	font-size : 20px;
+	color : #00b7ff;
+	padding : 2px 10px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6e6e6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background : linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 );
 }
