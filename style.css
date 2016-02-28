@@ -4,32 +4,43 @@ body {
 }
 
 #heading {
+  position: absolute;
   border-bottom: ridge;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: black;
 }
 
-h1 {
+/*#header2 {
   text-align: center;
   color: white;
   background-color: black;
   font-size: 500%;
   font-family: "courier";
   text-shadow: 1px 1px #999999;
+}*/
+
+h1 {
+  text-align: center;
+  color: white;
+  /*background-image: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);*/
+  background-size: cover;
+  font-size: 500%;
+  font-family: "courier";
+  text-shadow: 1px 1px #999999;
+
 }
 
 #locationcheck {
+  position: relative;
   border-top: ridge;
   border-color: white;
   font-family: "courier";
   text-align: center;
   margin-top: 5.2cm;
   margin-bottom: .2;
-  position: fixed;
   padding: 1;
   background-image: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);
   background-color: #999999;
@@ -40,8 +51,9 @@ h1 {
 }
 
 #thermostat {
-  position: fixed;
+  position: absolute;
   margin-top: 8cm;
+  margin-bottom: 0cm;
   font-family: "courier";
   text-align: center;
   width: 100%;
@@ -101,7 +113,6 @@ h1 {
 
 #resetTemp {
 	border: solid 2px #ffffff;
-
 	border-radius : 20px;
 	moz-border-radius : 3px;
 	font-size : 20px;
@@ -120,4 +131,14 @@ h1 {
 
 #music {
   display: none;
+}
+
+#girl1 {
+  border: solid 2px #ffffff;
+  border-radius: 100px;
+}
+
+#girl2 {
+  border: solid 2px #ffffff;
+  border-radius: 100px;
 }
