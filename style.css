@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+#heading {
+  position: absolute;
+  border-bottom: ridge;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+
+/*#header2 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 500%;
+  font-family: "courier";
+  text-shadow: 1px 1px #999999;
+}*/
+
+h1 {
+  text-align: center;
+  color: white;
+  /*background-image: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);*/
+  background-size: cover;
+  font-size: 500%;
+  font-family: "courier";
+  text-shadow: 1px 1px #999999;
+
+}
+
+#locationcheck {
+  position: relative;
+  border-top: ridge;
+  border-color: white;
+  font-family: "courier";
+  text-align: center;
+  margin-top: 5.2cm;
+  margin-bottom: .2;
+  padding: 1;
+  background-image: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);
+  background-color: #999999;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  float: left;
+}
+
+#thermostat {
+  position: absolute;
+  margin-top: 8cm;
+  margin-bottom: 0cm;
+  font-family: "courier";
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-top: ridge;
+  background-image: url(http://www.unoosa.org/res/timeline/index_html/space-2.jpg);
+  background-size: cover;
+}
+
+#powerSavingMode {
+  padding: 1;
+  margin-left: 42%;
+  margin-right: 42%;
+  align-self: center;
+  color: white;
+  border-style: solid;
+  border-radius: 100px;
+  border-width: 10px;
+  border-color: #290066;
+  padding: 10px;
+  text-shadow: 2px 2px black;
+  background-image: url(http://www.unoosa.org/res/timeline/index_html/space-2.jpg);
+}
+
+.button {
+	border : solid 2px #ffffff;
+	border-radius : 20px;
+	moz-border-radius : 3px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background-color : #0a66c9;
+}
+
+#pss {
+  border-style: solid;
+  border-color: #290066;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#divider {
+  border-style:
+  border-color: #black;
+  background-color: black;
+}
+
+#submitbutton {
+	border : solid 2px #ffffff;
+	border-radius : 20px;
+	moz-border-radius : 3px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background-color : #0a66c9;
+}
+
+#resetTemp {
+	border: solid 2px #ffffff;
+	border-radius : 20px;
+	moz-border-radius : 3px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background-color : #0a66c9;
+}
+
+#degrees {
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  margin-left: 48%;
+  margin-right: 48%;
+  background-color: black;
+}
+
+#music {
+  display: none;
+}
+
+#girl1 {
+  border: solid 2px #ffffff;
+  border-radius: 100px;
+}
+
+#girl2 {
+  border: solid 2px #ffffff;
+  border-radius: 100px;
+}

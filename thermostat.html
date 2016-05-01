@@ -2,27 +2,55 @@
 <html>
 <head>
   <title>Thermostat</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media= "screen" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="src/thermostat.js"></script>
   <script src="src/interface.js"></script>
 </head>
 <body>
-  <h2 id="degrees"></h2>
-  <div>
-    <p>
-      <button id="increaseTemp">+</button>
-      <button id="decreaseTemp">-</button>
-    </p>
-  </div>
-  <div>
-    <h2>Power saving status: <span id="powerSavingModeStatus">On</span></h2>
-    <button id="switchPowerSavingOn">On</button>
-    <button id="switchPowerSavingOff">Off</button>
-  </div>
-  <div>
-    <p>
-      <button id="resetTemp">Rest Temperature</button>
-    </p>
-  </div>
+  <section id="heading">
+    <h1>Space-o-stat</h1>
+    <p></p>
+  </section>
+  <section id="locationcheck">
+    <h2>Temperature where you are: <span id="current-temperature"></span>&deg;C</h2>
+    <form id="select-city">
+      Enter your planet:
+      <input id="current-city" type="text" placeholder="Enter a city"></input>
+      <input id="submitbutton" type="submit"></input>
+      <p></p>
+    </form>
+  </section>
+  <section id="thermostat">
+    <div>
+      <p></p>
+      <div class="girls">
+        <img id="girl1" style="width: 500px; height: 300px;" src="" img/>
+        <img id="girl2" style="width: 500px; height: 300px;" src="" img/>
+      </div>
+      <h2 id="degrees"></h2>
+    </div>
+    <div>
+      <p>
+        <button class="button" id="increaseTemp">+</button>
+        <button class="button" id="decreaseTemp">-</button>
+      </p>
+    </div>
+    <p></p>
+    <div id="powerSavingMode">
+      <p></p>
+      <h2 id="pss">Power saving status: <span id="powerSavingModeStatus">On</span></h2>
+      <section id="powerbuttons">
+        <button class="button" id="switchPowerSavingOn">On</button>
+        <button class="button" id="switchPowerSavingOff">Off</button>
+      </section>
+    </div>
+    <div>
+      <p>
+        <button id="resetTemp">Reset Temperature</button>
+      </p>
+    </div>
+  </section>
+  <!-- <embed src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148227718&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></embed> -->
 </body>
 </html>
